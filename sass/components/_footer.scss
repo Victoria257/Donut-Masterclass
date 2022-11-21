@@ -1,0 +1,13 @@
+.footer {
+    padding-top: 20px;
+    padding-bottom: 17px;
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__icon {
+        margin-right: 4px;
+    }
+}

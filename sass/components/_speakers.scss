@@ -1,0 +1,43 @@
+.speakers {
+    &__wrapper {
+        padding-top: 18px;
+        padding-bottom: 18px;
+    }
+
+    &__title {
+        font-family: 'Montserrat Alternates';
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 1.21;
+    }
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        outline: solid rosybrown;
+        margin-top: 16px;
+    }
+    
+    &__set {
+        width: calc((100% - 20px)/2);
+        outline: solid yellow;
+    }
+
+    &__name {
+        margin-top: 12px;
+
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 1.25;
+    }
+
+    &__position {
+        margin-top: 12px;
+
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 1.25;
+    }
+    
+}

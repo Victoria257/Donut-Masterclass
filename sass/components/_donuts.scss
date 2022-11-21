@@ -1,0 +1,51 @@
+.donuts {
+
+    &__wrapper {
+        padding-top: 16px;
+        padding-bottom: 12px;
+        color: rgba(46, 37, 32, 1);
+       
+    }
+
+    &__list-wrapper {
+        padding: 16px 19px 24px 8px;
+        background: rgba(250, 251, 251, 1);
+        border: 1px solid rgba(243, 132, 140, 1);
+        box-shadow: 10px 15px 25px rgba(210, 201, 201, 0.45);
+        border-radius: 25px;
+        text-align: center;
+    }
+
+    &__title {
+        font-family: 'Montserrat Alternates';
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 1.22;
+    }
+
+    &__list {
+        margin-top: 20px;
+        text-align: left;
+
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.22;
+    }
+
+    &__set {
+        display: flex;
+        margin-top: 12px;
+
+            &:first-child {
+                margin-top: 0;
+            }
+    }
+
+    &__icon {
+        margin-right: 10px;
+    }
+
+    &__button {
+        margin-top: 32px;
+    }
+}

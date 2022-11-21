@@ -1,0 +1,95 @@
+.program {
+    &__wrapper {
+        padding-top: 14px;
+        padding-bottom: 18px;
+    }
+
+    &__title {
+        font-family: 'Montserrat Alternates';
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 1.21;
+    }
+
+    &__text {
+        margin-top: 8px;
+
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.25;
+    }
+
+    &__list {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.25;
+    }
+
+    &__set {
+        display: flex;
+        margin-top: 8px;
+    }
+
+    &__set-icon {
+        margin-right: 8px;
+    }
+
+    &__link {
+        margin-top: 16px;
+
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.25;
+    }
+
+    &__foto-wrapper {
+        display: flex;
+        gap: 20px;
+    }
+
+    &__foto-list {
+        outline: solid none;
+
+    }
+
+    &__foto-list-1 {
+        margin-top: 24px;
+        margin-bottom: 20px;
+
+           
+    }
+
+    &__foto-list-2 {
+        margin-top: 44px;
+    }
+
+    &__foto-set{
+        outline: solid yellow;
+        padding-top: 62px;
+        padding-bottom: 28px;
+        text-align: center;
+        width: 130px;
+        height: 130px;
+            &:first-child {
+                margin-bottom: 28px;
+            }
+    }
+
+    &__foto-name {
+
+        font-family: 'Montserrat Alternates';
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.21;
+        color: rgba(255, 255, 255, 1);
+    }
+
+    &__foto-text {
+        margin-top: 8px;
+
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.25;
+        color: rgba(255, 255, 255, 1);
+    }
+}

@@ -1,0 +1,53 @@
+.contact {
+
+    &__wrapper {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: rgba(46, 37, 32, 1);
+        text-align: center;
+    }
+
+    &__title {
+        font-family: 'Montserrat Alternates';
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 1.21;
+    }
+
+    &__social {
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+        margin-top: 28px;
+    }
+}
+
+.contact-form {
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+
+    &__legend {
+        margin-top: 27px;
+    }
+
+    &__input {
+        margin-top: 20px;
+        color: rgba(0, 0, 0, 0.5);
+        width: 100%;
+        background-color: inherit;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 1px solid rgba(0, 0, 0, 1);
+
+            &:first-child {
+                margin-top: 16px;
+            }
+    }
+
+    &__button {
+        margin-top: 28px;
+    }
+}
