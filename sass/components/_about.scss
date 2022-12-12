@@ -3,10 +3,18 @@
     &__wrapper {
         padding-top: 20px;
         padding-bottom: 14px;
+      
+    }
+
+    &__envelop {
+        outline: solid black;
+        background-image: url(/img/about/about-decor-1.png);
+        
     }
 
     &__title {
         margin-top: 28px;
+        text-align: center;
 
         font-family: 'Montserrat Alternates';
         font-weight: 500;

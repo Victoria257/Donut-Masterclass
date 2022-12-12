@@ -1,9 +1,18 @@
 .hero {
+    &__and-header {
+        background-image: url(/img/hero/hero-bg-1.png);
+        width: 320px;
+        margin-top: -78px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     &__wrapper {
-        padding-top: 10px;
+        padding-top: 84px;
         padding-bottom: 8px;
 
         text-align: center;
+
     }
 
     &__title {
