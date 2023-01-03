@@ -72,7 +72,9 @@
 
         <section class="about">
             <div class="container about__wrapper">
-                <img src="/img/about/donuts-1.png" alt="">
+                <div class="about__thumb">
+                    <img src="/img/about/donuts-1.png" alt="donuts">
+                </div>
                 <div class="about__envelop">
                     <h2 class="about__title">About us</h2>
                     <p class="about__text-1">
@@ -142,12 +144,12 @@
                 <div class="program__foto-wrapper">
                     <ul class="program__foto-list">
                         <li class="program__foto-set program__foto-set-img1">
-                            <!-- <div class="program__foto-envelop">
+                            <div class="program__foto-img program__foto-img-1">
                                 <h3 class="program__foto-name">Type of the event</h3>
                                 <p class="program__foto-text">Cooking classes</p>
-                            </div> -->
+                            </div>
                         </li>
-                        <li class="program__foto-set">
+                        <li class="program__foto-set program__foto-set-img2">
                             <div class="program__foto-img program__foto-img-2">
                                 <h3 class="program__foto-name">Time of the event</h3>
                                 <p class="program__foto-text">18:30 (2.5 hours)</p>
@@ -155,13 +157,13 @@
                         </li>
                     </ul>
                     <ul class="program__foto-list program__foto-list-2">
-                        <li class="program__foto-set">
+                        <li class="program__foto-set program__foto-set-img3">
                             <div class="program__foto-img program__foto-img-3">
                                 <h3 class="program__foto-name">Number of guests</h3>
                                 <p class="program__foto-text">1 to 20</p>
                             </div>
                         </li>
-                        <li class="program__foto-img program__foto-set">
+                        <li class="program__foto-img program__foto-set program__foto-set-img4">
                             <div class="program__foto-img-4">
                                 <h3 class="program__foto-name">The host speaks</h3>
                                 <p class="program__foto-text">English, French</p>
@@ -174,27 +176,28 @@
 
         <section class="speakers">
             <div class="container speakers__wrapper">
+                <div class="speakers__decor"></div>
                 <h2 class="speakers__title">Speakers</h2>
                 <ul class="speakers__list">
                     <li class="speakers__set">
-                        <img src="" alt="">
+                        <img src="./img/speakers/pastry-chef-1.jpg" alt="Foto of pastry chef" width="130" height="141">
                         <h3 class="speakers__name">Molly Rivera</h3>
-                        <p class="speakers__position">Pastry chef, master chocolatier of Spain</p>
+                        <p class="speakers__paragraph">Pastry chef, master chocolatier of Spain</p>
                     </li>
                     <li class="speakers__set">
-                        <im class="speakers__name"g src="" alt="">
+                        <img src="./img/speakers/culinary-chef-1.png" alt="Foto of culinary school pastry chef" width="130" height="145">
                         <h3 class="speakers__name">Sophia Clark</h3>
-                        <p class="speakers__position">Сulinary school pastry chef</p>
+                        <p class="speakers__paragraph">Сulinary school pastry chef</p>
                     </li>
                     <li class="speakers__set">
-                        <img src="" alt="">
+                        <img src="./img/speakers/consultant-1.jpg" alt="Foto of consultant in the art of confectionery " width="130" height="141">
                         <h3 class="speakers__name">Isabella Taylor</h3>
-                        <p class="speakers__position">Сonsultant in the art of confectionery</p>
+                        <p class="speakers__paragraph">Сonsultant in the art of confectionery</p>
                     </li>
                     <li class="speakers__set">
-                        <img src="" alt="">
+                        <img src="./img/speakers/master-chocolatier-1.jpg" alt="Foto of master- chocolatier" width="130" height="141">
                         <h3 class="speakers__name">Evelyn Miller</h3>
-                        <p class="speakers__position">Master- chocolatier
+                        <p class="speakers__paragraph">Master- chocolatier
                         in Spain</p>
                     </li>
                 </ul>
@@ -203,6 +206,7 @@
 
         <section class="price">
             <div class="container price__wrapper">
+                <div class="price__decor-1"></div>
                 <h2 class="price__title">Price</h2>
                 <div class="price__list-wrapper">
                     <h3 class="price__list-title">Easy start</h3>
@@ -234,13 +238,15 @@
                     </ul>
                     <button class="button price__button" type="button">Register</button>
                 </div>
+                <div class="price__decor-2"></div>
             </div>
         </section>
 
         <section class="donuts">
             <div class="container donuts__wrapper">
+                <div class="donuts__decor-3"></div>
                 <div class="donuts__list-wrapper">
-                    <h2 class="donuts__title">I want delicious
+                    <h2 class="donuts__title">I want delicious<br>
                     donuts</h2>
                     <ul class="donuts__list">
                         <li class="donuts__set">
@@ -282,6 +288,8 @@
                     </ul>
                     <button class="button donuts__button" type="button">Register</button>
                 </div>
+                <div class="donuts__decor-donuts"></div>
+                <div class="donuts__decor-4"></div>
             </div>
         </section>
 
@@ -341,13 +349,15 @@
                     </ul>
                     <button class="button premium__button" type="button">Register</button>
                 </div>
+                <div class="premium__decor-donuts"></div>
             </div>
         </section>
 
         <section class="reviews">
             <div class="container reviews__wrapper">
+                <div class="reviews__decor"></div>
                 <h2 class="reviews__title">Reviews</h2>
-                <img class="reviews_image" src="" alt="">
+                <img class="reviews__image" src="./img/reviews/will-1.jpg" alt="">
                 <div class="reviews__stars">
                     <svg width="24" height="24">
                         <use href="./img/symbol-defs2.svg#icon-star"></use>
@@ -379,9 +389,10 @@
 
         <section class="registration">
             <div class="container registration__wrapper">
+                <div class="registration__decor"></div>
                 <h2 class="registration__title">Registration</h2>
                 <div class="registration-form__wrapper">
-                    <h3 class="form__title">May 23, 11:00<br>
+                    <h3 class="registration-form__title">May 23, 11:00<br>
                     New York</h3>
                     <form class="registration-form">
                         <legend class="registration-form__legend">Apply your personal info
@@ -403,6 +414,7 @@
 
         <section class="contact">
             <div class="container contact__wrapper">
+                <div class="contact__decor"></div>
                 <h2 class="contact__title">Contact</h2>
                 <form class="contact-form">
                     <legend class="contact-form__legend">We will answer any question!</legend>
@@ -458,7 +470,7 @@
                     <a href="">New York</a>
                 </div>
             </div>
-            <img class="footer__image" src="" alt="">
+            <img class="footer__image" src="./img/footer/donuts-1.png" alt="donuts" width="60" height="40">
         </div>
     </footer>
     <script src="./js/header-button.js"></script>

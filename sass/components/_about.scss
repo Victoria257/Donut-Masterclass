@@ -3,11 +3,13 @@
     &__wrapper {
         padding-top: 20px;
         padding-bottom: 14px;
-      
+    }
+
+    &__thumb {
+        mix-blend-mode: darken;
     }
 
     &__envelop {
-        outline: solid black;
         background-image: url(/img/about/about-decor-1.png);
         
     }

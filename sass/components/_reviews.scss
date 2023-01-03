@@ -1,11 +1,22 @@
 .reviews {
 
     &__wrapper {
-        padding-top: 40px;
+        position: relative;
+        padding-top: 20px;
         padding-bottom: 20px;
 
         text-align: center;
         color: rgba(46, 37, 32, 1);
+      
+    }
+
+    &__decor {
+        position: absolute;
+        top: 0;
+        right: 20px;
+        width: 285px;
+        height: 613px;
+        background-image: url(/img/reviews/Decor.png);
     }
 
     &__title {
@@ -17,6 +28,7 @@
 
     &__image {
         margin-top: 27px;
+        border-radius: 50%;
     }
 
     &__stars {
@@ -57,7 +69,8 @@
                 display: inline-block;
                 width: 35px;
                 height: 0;
-                border: 2px solid rgba(243, 132, 140, 1);
+                border: 1px solid rgba(243, 132, 140, 1);
+                background-color: rgba(243, 132, 140, 1);
                 margin-right: 12px;
             }
 
@@ -66,7 +79,8 @@
                 display: inline-block;
                 width: 35px;
                 height: 0;
-                border: 2px solid rgba(243, 132, 140, 1);
+                border: 1px solid rgba(243, 132, 140, 1);
+                background-color: rgba(243, 132, 140, 1);
                 margin-left: 12px;
             }
                                 

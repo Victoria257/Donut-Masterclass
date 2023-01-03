@@ -1,7 +1,19 @@
 .speakers {
+
     &__wrapper {
         padding-top: 18px;
         padding-bottom: 18px;
+        text-align: center;
+        position: relative;
+    }
+
+    &__decor {
+        position: absolute;
+        top: 30px;
+        right: -15px;
+        width: 199px;
+        height: 411px;
+        background-image: url(/img/speakers/Decor.png);
     }
 
     &__title {
@@ -15,24 +27,24 @@
         display: flex;
         flex-wrap: wrap;
         gap: 20px;
-        outline: solid rosybrown;
         margin-top: 16px;
+
     }
     
     &__set {
         width: calc((100% - 20px)/2);
-        outline: solid yellow;
+        margin-top: 0;
     }
 
     &__name {
         margin-top: 12px;
-
+        
         font-weight: 600;
         font-size: 16px;
         line-height: 1.25;
     }
 
-    &__position {
+    &__paragraph {
         margin-top: 12px;
 
         font-weight: 500;

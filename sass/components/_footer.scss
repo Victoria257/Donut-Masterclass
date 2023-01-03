@@ -1,6 +1,7 @@
 .footer {
     padding-top: 20px;
     padding-bottom: 17px;
+    text-align: center;
 
     &__wrapper {
         display: flex;
@@ -9,5 +10,9 @@
 
     &__icon {
         margin-right: 4px;
+    }
+
+    &__image {
+        margin-top: -10px;
     }
 }

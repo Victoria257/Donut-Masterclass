@@ -5,6 +5,11 @@ body {
     color: rgba(60, 50, 45, 1);
     margin-top: 5px;
     margin-bottom: 5px;
+    background-image: linear-gradient(180.11deg,
+        #E5E2E3 10.73%,
+        #FDFEFE 38.02%,
+        #E5E2E3 71.11%,
+        #FDFEFE 99.91%);
 }
 
 button {
@@ -59,7 +64,6 @@ svg {
 }
 
 .container {
-    outline: solid blueviolet;
     margin: 0 auto;
     width: 320px;
     padding-left: 20px;

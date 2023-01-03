@@ -1,6 +1,8 @@
 .hero {
     &__and-header {
         background-image: url(/img/hero/hero-bg-1.png);
+        background-repeat: no-repeat;
+        mix-blend-mode: darken;
         width: 320px;
         margin-top: -78px;
         margin-left: auto;

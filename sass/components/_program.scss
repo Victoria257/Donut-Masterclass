@@ -34,6 +34,8 @@
 
     &__set-icon {
         margin-right: 8px;
+        width: 24px;
+        height: 24px;
     }
 
     &__link {
@@ -50,6 +52,7 @@
     }
 
     &__foto-list {
+        margin-top: 24px;
         outline: solid none;
 
     }
@@ -66,15 +69,13 @@
     }
 
     &__foto-set{
-        outline: solid yellow;
+        border: 1px solid rgba(243, 132, 140, 1);
+        border-radius: 50%;
         width: 130px;
         height: 130px;
-
-        display: inline-flex;
-        background-size: 130px;
         background-position: center;
-        background-repeat: no-repeat;
-        padding: 0;
+        
+        background: linear-gradient(0.1deg, #000000 -10.83%, rgba(156, 156, 156, 0) 88.01%);
 
             &:first-child {
                 margin-bottom: 28px;
@@ -83,15 +84,55 @@
   
     &__foto-set-img1 {
         
-         background-image: url(/img/program/program-foto-1-1.png);
-     
+        background-image: url(/img/program/program-foto-1-1.png);
+        background-position: top -11px left -16px;
+        background-repeat: no-repeat;
+        box-shadow: 10px 15px 25px rgba(210, 201, 201, 0.45);
     }
+
+    &__foto-set-img2 {
+
+        background-image: url(/img/program/program-foto-3-1.png);
+        background-position: top -11px left -16px;
+            background-repeat: no-repeat;
+            box-shadow: 10px 15px 25px rgba(210, 201, 201, 0.45);
+
+    }
+
+    &__foto-set-img3 {
+
+        background-image: url(/img/program/program-foto-2-1.png);
+        background-position: top -11px left -16px;
+            background-repeat: no-repeat;
+            box-shadow: 10px 15px 25px rgba(210, 201, 201, 0.45);
+
+    }
+
+    &__foto-set-img4 {
+
+        background-image: url(/img/program/program-foto-4-1.png);
+        background-position: top -11px left -16px;
+            background-repeat: no-repeat;
+            box-shadow: 10px 15px 25px rgba(210, 201, 201, 0.45);
+
+    }
+
+
+
 
     &__foto-envelop {
         outline: solid orange;
         margin-top: 62px;
         margin-bottom: 28px;
         text-align: center;
+    }
+
+
+    &__foto-img {
+        padding-top: 62px;
+        display: inline-block;
+        text-align: center;
+        
     }
 
     &__foto-name {

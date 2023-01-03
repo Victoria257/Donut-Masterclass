@@ -1,12 +1,23 @@
 .registration {
 
     &__wrapper {
+        position: relative;
         padding-top: 20px;
         padding-bottom: 20px;
         text-align: center;
     }
 
+    &__decor {
+        position: absolute;
+        z-index: -1;
+        right: 10px;
+        top: 20px;
 
+        width: 70px;
+        height: 70px;
+        background-image: url(/img/registration/Decor.png);
+
+    }
 }
 
 .registration-form {
@@ -22,14 +33,16 @@
         text-align: center;
         
 
-        
-        background-color: rgba(246, 247, 247, 1);
-        background-color: rgb(121, 140, 140);
+        background-image: linear-gradient(to top,
+                rgba(61, 44, 44, 0.6)),
+                 url(/img/registration/donuts-1.png);
+        background-color: rgba(61, 44, 44, 1);
         box-shadow: 10px 15px 25px rgba(210, 201, 201, 0.45);
         border-radius: 10px;
         color: rgba(255, 255, 255, 1); 
 
     }
+    
 
     &__title {
         font-weight: 500;
@@ -40,8 +53,8 @@
                 content: "";
                 display: block;
                 width: 264px;
-                height: 0px;
-                border: 1px solid rgba(255, 255, 255, 1);
+                height: 1px;
+                background-color: rgba(255, 255, 255, 1);
                 margin-top: 20px;
             }
     }
@@ -53,7 +66,11 @@
         border-top: none;
         border-left: none;
         border-right: none;
-        border-bottom: 0 0 1px 0 solid rgba(255, 255, 255, 1);
+        border-bottom: 1px solid rgba(255, 255, 255, 1);
+
+        &::placeholder {
+            color: rgba(255, 255, 255, 1);
+        }
     }
 
     &__button {

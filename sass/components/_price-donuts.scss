@@ -1,10 +1,20 @@
 .donuts {
 
     &__wrapper {
+        position: relative;
         padding-top: 16px;
         padding-bottom: 12px;
         color: rgba(46, 37, 32, 1);
-       
+    }
+
+    &__decor-3 {
+        position: absolute;
+        right: 0;
+        top: 50px;
+
+        width: 20px;
+        height: 20px;
+        background-image: url(/img/price/decor-3.png);
     }
 
     &__list-wrapper {
@@ -47,5 +57,26 @@
 
     &__button {
         margin-top: 32px;
+    }
+
+    &__decor-donuts {
+        position: absolute;
+        right: 61px;
+        bottom: 116px;
+    
+        width: 200px;
+        height: 145px;
+        background-image: url(/img/price/decor-donuts-1.png);
+    }
+
+    &__decor-4 {
+        position: absolute;
+        z-index: -1;
+        right: 5px;
+        bottom: -28px;
+
+        width: 40px;
+        height: 40px;
+        background-image: url(/img/price/decor-4.png);
     }
 }
