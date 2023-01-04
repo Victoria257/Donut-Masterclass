@@ -78,32 +78,18 @@ svg {
   padding-right: 20px;
 }
 
-.icon__border {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-right: 8px;
-  width: 24px;
-  height: 24px;
-  border-radius: 50%;
-  border: 1px solid rgb(243, 132, 140);
-  background-color: rgb(255, 255, 255);
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
 .icon {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
   border-radius: 50%;
-  border: 0.5px dashed rgb(243, 132, 140);
-  width: 20px;
-  height: 20px;
+  border: 1px solid rgb(243, 132, 140);
+  outline: 0.5px dashed rgb(243, 132, 140);
+  outline-offset: -2px;
+  background-color: rgb(255, 255, 255);
+  margin-right: 8px;
+  width: 24px;
+  height: 24px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
