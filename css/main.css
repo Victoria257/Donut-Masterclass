@@ -139,7 +139,16 @@ svg {
   mix-blend-mode: darken;
 }
 .about__envelop {
+  position: relative;
+}
+.about__decor {
+  position: absolute;
+  top: 10px;
+  right: -5px;
+  width: 308px;
+  height: 284px;
   background-image: url(../img/about/about-decor-1.png);
+  background-repeat: no-repeat;
 }
 .about__title {
   margin-top: 28px;
@@ -157,21 +166,23 @@ svg {
 }
 .about__text-2 {
   margin-top: 8px;
+  margin-bottom: 16px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
 }
 .about__link {
-  margin-top: 16px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.25;
+  color: rgb(60, 50, 45);
 }
 
 .program__wrapper {
   padding-top: 14px;
   padding-bottom: 18px;
   background-image: url(../img/program/program-bg-1.png);
+  background-repeat: no-repeat;
 }
 .program__title {
   font-family: "Montserrat Alternates";
@@ -308,6 +319,7 @@ svg {
   width: 199px;
   height: 411px;
   background-image: url(../img/speakers/Decor.png);
+  background-repeat: no-repeat;
 }
 .speakers__title {
   font-family: "Montserrat Alternates";

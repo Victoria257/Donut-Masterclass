@@ -1,6 +1,7 @@
 .about {
 
     &__wrapper {
+     
         padding-top: 20px;
         padding-bottom: 14px;
     }
@@ -10,9 +11,19 @@
     }
 
     &__envelop {
-        background-image: url(../img/about/about-decor-1.png);
-        
+        position: relative;
     }
+
+    &__decor {
+        position: absolute;
+        top: 10px;
+        right: -5px;
+        width: 308px;
+        height: 284px;
+        background-image: url(../img/about/about-decor-1.png);
+        background-repeat: no-repeat;
+    }
+
 
     &__title {
         margin-top: 28px;
@@ -34,6 +45,7 @@
 
     &__text-2 {
         margin-top: 8px;
+        margin-bottom: 16px;
 
         font-weight: 400;
         font-size: 16px;
@@ -41,10 +53,9 @@
     }
 
     &__link {
-        margin-top: 16px;
-
         font-weight: 500;
         font-size: 16px;
         line-height: 1.25;
+        color: rgba(60, 50, 45, 1);
     }
 }
