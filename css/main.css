@@ -90,7 +90,7 @@ svg {
 }
 
 .hero__and-header {
-  background-image: url(/img/hero/hero-bg-1.png);
+  background-image: url(./img/hero/hero-bg-1.png);
   background-repeat: no-repeat;
   mix-blend-mode: darken;
   width: 320px;
@@ -139,7 +139,7 @@ svg {
   mix-blend-mode: darken;
 }
 .about__envelop {
-  background-image: url(/img/about/about-decor-1.png);
+  background-image: url(./img/about/about-decor-1.png);
 }
 .about__title {
   margin-top: 28px;
@@ -171,7 +171,7 @@ svg {
 .program__wrapper {
   padding-top: 14px;
   padding-bottom: 18px;
-  background-image: url(/img/program/program-bg-1.png);
+  background-image: url(./img/program/program-bg-1.png);
 }
 .program__title {
   font-family: "Montserrat Alternates";
@@ -237,28 +237,28 @@ svg {
   margin-bottom: 28px;
 }
 .program__foto-set-img1 {
-  background-image: url(/img/program/program-foto-1-1.png);
+  background-image: url(./img/program/program-foto-1-1.png);
   background-position: top -11px left -16px;
   background-repeat: no-repeat;
   -webkit-box-shadow: 10px 15px 25px rgba(210, 201, 201, 0.45);
           box-shadow: 10px 15px 25px rgba(210, 201, 201, 0.45);
 }
 .program__foto-set-img2 {
-  background-image: url(/img/program/program-foto-3-1.png);
+  background-image: url(./img/program/program-foto-3-1.png);
   background-position: top -11px left -16px;
   background-repeat: no-repeat;
   -webkit-box-shadow: 10px 15px 25px rgba(210, 201, 201, 0.45);
           box-shadow: 10px 15px 25px rgba(210, 201, 201, 0.45);
 }
 .program__foto-set-img3 {
-  background-image: url(/img/program/program-foto-2-1.png);
+  background-image: url(./img/program/program-foto-2-1.png);
   background-position: top -11px left -16px;
   background-repeat: no-repeat;
   -webkit-box-shadow: 10px 15px 25px rgba(210, 201, 201, 0.45);
           box-shadow: 10px 15px 25px rgba(210, 201, 201, 0.45);
 }
 .program__foto-set-img4 {
-  background-image: url(/img/program/program-foto-4-1.png);
+  background-image: url(./img/program/program-foto-4-1.png);
   background-position: top -11px left -16px;
   background-repeat: no-repeat;
   -webkit-box-shadow: 10px 15px 25px rgba(210, 201, 201, 0.45);
@@ -302,7 +302,7 @@ svg {
   right: -15px;
   width: 199px;
   height: 411px;
-  background-image: url(/img/speakers/Decor.png);
+  background-image: url(./img/speakers/Decor.png);
 }
 .speakers__title {
   font-family: "Montserrat Alternates";
@@ -396,7 +396,7 @@ svg {
   bottom: -17px;
   width: 32px;
   height: 32px;
-  background-image: url(/img/price/decor-2.png);
+  background-image: url(./img/price/decor-2.png);
 }
 
 .donuts__wrapper {
@@ -411,7 +411,7 @@ svg {
   top: 50px;
   width: 20px;
   height: 20px;
-  background-image: url(/img/price/decor-3.png);
+  background-image: url(./img/price/decor-3.png);
 }
 .donuts__list-wrapper {
   padding: 16px 19px 24px 8px;
@@ -456,7 +456,7 @@ svg {
   bottom: 116px;
   width: 200px;
   height: 145px;
-  background-image: url(/img/price/decor-donuts-1.png);
+  background-image: url(./img/price/decor-donuts-1.png);
 }
 .donuts__decor-4 {
   position: absolute;
@@ -465,7 +465,7 @@ svg {
   bottom: -28px;
   width: 40px;
   height: 40px;
-  background-image: url(/img/price/decor-4.png);
+  background-image: url(./img/price/decor-4.png);
 }
 
 .premium__wrapper {
@@ -518,7 +518,7 @@ svg {
   bottom: 116px;
   width: 200px;
   height: 145px;
-  background-image: url(/img/price/decor-donuts-1.png);
+  background-image: url(./img/price/decor-donuts-1.png);
 }
 
 .reviews__wrapper {
@@ -534,7 +534,7 @@ svg {
   right: 20px;
   width: 285px;
   height: 613px;
-  background-image: url(/img/reviews/Decor.png);
+  background-image: url(./img/reviews/Decor.png);
 }
 .reviews__title {
   font-family: "Montserrat Alternates";
@@ -608,7 +608,7 @@ svg {
   top: 20px;
   width: 70px;
   height: 70px;
-  background-image: url(/img/registration/Decor.png);
+  background-image: url(./img/registration/Decor.png);
 }
 
 .registration-form {
@@ -621,8 +621,8 @@ svg {
   margin-top: 27px;
   padding: 40px 8px 32px 8px;
   text-align: center;
-  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(61, 44, 44, 0.6))), url(/img/registration/donuts-1.png);
-  background-image: linear-gradient(to top, rgba(61, 44, 44, 0.6)), url(/img/registration/donuts-1.png);
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(61, 44, 44, 0.6))), url(./img/registration/donuts-1.png);
+  background-image: linear-gradient(to top, rgba(61, 44, 44, 0.6)), url(./img/registration/donuts-1.png);
   background-color: rgb(61, 44, 44);
   -webkit-box-shadow: 10px 15px 25px rgba(210, 201, 201, 0.45);
           box-shadow: 10px 15px 25px rgba(210, 201, 201, 0.45);
@@ -683,7 +683,7 @@ svg {
   top: 0;
   width: 267px;
   height: 312px;
-  background-image: url(/img/contact/Decor.png);
+  background-image: url(./img/contact/Decor.png);
 }
 .contact__title {
   font-family: "Montserrat Alternates";
