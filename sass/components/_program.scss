@@ -2,7 +2,7 @@
     &__wrapper {
         padding-top: 14px;
         padding-bottom: 18px;
-        background-image: url(./img/program/program-bg-1.png);
+        background-image: url(../img/program/program-bg-1.png);
     }
 
     &__title {
@@ -36,6 +36,12 @@
         margin-right: 8px;
         width: 24px;
         height: 24px;
+    }
+
+    &__set-icon use {
+        width: 100%;
+        padding: 0;
+        outline: solid red;
     }
 
     &__link {
