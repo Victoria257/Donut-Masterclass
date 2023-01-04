@@ -78,6 +78,41 @@ svg {
   padding-right: 20px;
 }
 
+.icon__border {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 8px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 1px solid rgb(243, 132, 140);
+  background-color: rgb(255, 255, 255);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.icon {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  border-radius: 50%;
+  border: 0.5px dashed rgb(243, 132, 140);
+  width: 20px;
+  height: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 3px;
+}
+
 .header__wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -201,22 +236,13 @@ svg {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
+  margin-bottom: 16px;
 }
 .program__set {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-top: 8px;
-}
-.program__set-icon {
-  margin-right: 8px;
-  width: 24px;
-  height: 24px;
-}
-.program__set-icon use {
-  width: 100%;
-  padding: 0;
-  outline: solid red;
 }
 .program__link {
   margin-top: 16px;
@@ -395,9 +421,6 @@ svg {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-.price__icon {
-  margin-right: 10px;
 }
 .price__set-text {
   font-weight: 400;
