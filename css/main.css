@@ -347,6 +347,9 @@ svg {
       flex-wrap: wrap;
   gap: 20px;
   margin-top: 16px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 .speakers__set {
   width: calc((100% - 20px) / 2);
@@ -378,7 +381,7 @@ svg {
   right: 20px;
   width: 50px;
   height: 50px;
-  background-image: url(/img/price/decor-1.png);
+  background-image: url(../img/price/decor-1.png);
 }
 .price__title {
   font-family: "Montserrat Alternates";
