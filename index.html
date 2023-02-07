@@ -19,19 +19,35 @@
 <body>
     <header>
         <div class="container header__wrapper">
-            <div class="logo">
+            <a  class="logo"  href="">
                 <svg width="108" height="50">
                     <use href="./img/symbol-defs2.svg#icon-logo"></use>
                 </svg>
-            </div>
-            <div class="menu">
+           </a>
+
+            <div class="header__menu">
+
                 <button class="header__button">
-                    <svg width="30" height="16">
+                    <svg class="icon-menu" width="30" height="16">
                         <use href="./img/symbol-defs2.svg#icon-menu"></use>
+                    </svg>
+                    <svg  class="icon-close visually-hidden" width="32" height="32">
+                        <use href="./img/symbol-defs2.svg#icon-close"></use>
                     </svg>
                 </button>
 
             </div>
+        </div>
+
+        <div class="header__modal visually-hidden">
+            <ul class="header__modal-list">
+                <li><a href="">About us</a></li>
+                <li><a href="">Program</a></li>
+                <li><a href="">Speaker</a></li>
+                <li><a href="">Price</a></li>
+                <li><a href="">Reviws</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
         </div>
     </header>
 
@@ -42,24 +58,26 @@
                     <h1 class="hero__title">Donut Masterclass
                     with the Donut King</h1>
                     <h2 class="hero__post-title">Hosted by Eva Green</h2>
-                    <button class="button hero__button" type="button">Register</button>
+                    <a href="#registration">
+                     <button class="button hero__button" type="button">Register</button>
+                    </a>
                     <ul class="hero__list">
                         <li>
-                            <a>
+                            <a href="https://twitter.com/" target="_blank" rel="noreferrer noopener">
                                 <svg width="16" height="16">
                                     <use href="./img/symbol-defs2.svg#icon-twitter"></use>
                                 </svg>
                             </a>
                         </li>
                         <li>
-                            <a>
+                            <a href="https://www.instagram.com/" target="_blank" rel="noreferrer noopener">
                                 <svg width="16" height="16">
                                     <use href="./img/symbol-defs2.svg#icon-instagram"></use>
                                 </svg>
                             </a>
                         </li>
                         <li>
-                            <a>
+                            <a href="https://www.facebook.com/" target="_blank" rel="noreferrer noopener">
                                 <svg width="16" height="16">
                                     <use href="./img/symbol-defs2.svg#icon-facebook"></use>
                                 </svg>
@@ -88,7 +106,7 @@
                     weddings and has baked for many celebrities. Eva and our shop have received multiple awards & recognition for
                     excellence.
                     </p>
-                    <a class="about__link" href="">Read more</a>
+                    <a class="about__link" href="./about.html">Read more</a>
                 </div>
             </div>
         </section>
@@ -156,7 +174,7 @@
                         <p>All products are included in the price</p>
                     </li>
                 </ul>
-                <a class="program__link" href="">Read more</a>
+                <a class="program__link" href="./program.html">Read more</a>
                 <div class="program__foto-wrapper">
                     <ul class="program__foto-list">
                         <li class="program__foto-set program__foto-set-img1">
@@ -260,7 +278,9 @@
                             <p class="price__set-text">fry and glaze donuts</p>
                         </li>
                     </ul>
+                    <a href="#registration">
                     <button class="button price__button" type="button">Register</button>
+                    </a>
                 </div>
                 <div class="price__decor-2"></div>
             </div>
@@ -322,7 +342,9 @@
                             <p>donut decoration. painting and various techniques</p>
                         </li>
                     </ul>
-                    <button class="button donuts__button" type="button">Register</button>
+                    <a href="#registration">
+                     <button class="button donuts__button" type="button">Register</button>
+                    </a>
                 </div>
                 <div class="donuts__decor-donuts"></div>
                 <div class="donuts__decor-4"></div>
@@ -399,7 +421,9 @@
                             <p>2 private lessons with one of the speakers</p>
                         </li>
                     </ul>
-                    <button class="button premium__button" type="button">Register</button>
+                    <a href="#registration">
+                        <button class="button premium__button" type="button">Register</button>
+                    </a>
                 </div>
                 <div class="premium__decor-donuts"></div>
             </div>
@@ -439,7 +463,7 @@
             </div>
         </section>
 
-        <section class="registration">
+        <section class="registration" id="registration">
             <div class="container registration__wrapper">
                 <div class="registration__decor"></div>
                 <h2 class="registration__title">Registration</h2>
@@ -458,7 +482,7 @@
                         <label>
                             <input class="registration-form__input" type="email" name="email" placeholder="Email">
                         </label>
-                        <button class="button registration-form__button" type="submit">Register</button>
+                            <button class="button registration-form__button" type="submit">Register</button>
                     </form>
                 </div>
             </div>
@@ -525,6 +549,6 @@
             <img class="footer__image" src="./img/footer/donuts-1.png" alt="donuts" width="60" height="40">
         </div>
     </footer>
-    <script src="./js/header-button.js"></script>
+    <script src="./js/modal.js" type="module"></script>
 </body>
 </html>

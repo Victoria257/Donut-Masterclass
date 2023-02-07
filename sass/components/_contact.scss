@@ -31,7 +31,12 @@
         justify-content: center;
         gap: 16px;
         margin-top: 28px;
+
+        & svg {
+            fill: rgba(46, 37, 32, 1);
+        }
     }
+
 }
 
 .contact-form {

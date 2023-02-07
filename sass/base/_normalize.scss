@@ -3,7 +3,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     color: rgba(60, 50, 45, 1);
-    margin-top: 5px;
+    margin-top: -1px;
     margin-bottom: 5px;
     background-image: linear-gradient(180.11deg,
         #E5E2E3 10.73%,
@@ -32,11 +32,13 @@ button {
     border-radius: 25px;
     width: 145px;
     height: 40px;
+    cursor: pointer;
 }
 
 a {
    text-decoration: none;
    color: inherit;
+   cursor: pointer;
    
 }
 

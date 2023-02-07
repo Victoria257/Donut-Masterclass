@@ -1,5 +1,6 @@
 .hero {
     &__and-header {
+
         background-image: url(../img/hero/hero-bg-1.png);
         background-repeat: no-repeat;
         mix-blend-mode: darken;
@@ -43,6 +44,10 @@
         justify-content: center;
         gap: 16px;
         margin-top: 28px;
+    }
+
+    &__list svg {
+        fill: rgba(60, 50, 45, 1);
     }
 
 }

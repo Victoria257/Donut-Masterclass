@@ -6,6 +6,10 @@
     &__wrapper {
         display: flex;
         justify-content: space-between;
+
+        & svg {
+            fill: rgba(46, 37, 32, 1);
+        }
     }
 
     &__icon {
